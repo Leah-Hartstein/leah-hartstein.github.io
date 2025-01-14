@@ -13,14 +13,17 @@
 
   <article class="container">
     <section class="headlines">
+      <!-- Each part of the chart is it's own section that essentially works as a single big column with smaller grid stuff inside -->
       <div class="headlinetext">
       </div>
       <div class="heroimg">
       </div>
+      <!-- My hero image, which is sourced from (Callaghan, 2024) -->
     </section>
     <section class="intro">
       <div class="Text1">
-        <p>
+        <p> 
+          <!-- Text is contained in p elements which I've styled. Quotes are in em and citations/captions are in subs -->
           <em>"The Milwaukee metropolitan area has been transformed into a game of Grand Theft Auto wherein the Kia Boyz
             are preying on the owners to steal their cars in droves."
             <br>
@@ -41,11 +44,12 @@
       <div id="theftChart"></div>
       <div class="Text2">
         <hr>
+        <!-- Subheadings are all h2 -->
         <h2>A bad idea.</h2>
 
         <p>
 
-          Between 2015 and 2021 Kia-Hyundai chose to remove immobilisers in 14 popular cars in the United States
+          <span>B</span>etween 2015 and 2021 Kia-Hyundai chose to remove immobilisers in 14 popular cars in the United States
           <sub>(Davis, 2022)</sub>. Designed to protect against hotwiring, immobilisers are simple circuits that prevent
           a car from starting without a key in the ignition. Immobilisers have been legally required in all new cars
           sold in Australia, Canada, and several European countries since the early 2000s, and are present in over 90%
@@ -76,14 +80,18 @@
 
         </div>
         <div class="diagramimage"></div>
+        <!-- Images are the css backgrounds of divs because I've found that to be way easier to work with -->
       </div>
       <hr>
+      <!-- Inspired by the New Yorker, big sections are deliniated with horizontal lines to recreate the natural pause
+      that'd come with turning the page of a magazine. I think they work really well for spacing everything out and add a nice
+    little touch of drama. -->
     </section>
     <section class="boyz">
       <div class="text4">
         <h2>The Kia Boyz</h2>
         <p>
-          At some point in the late 2010s and early 2020s, thefts of Kia and Hyundai cars began to increase in ways that
+          <span>A</span>t some point in the late 2010s and early 2020s, thefts of Kia and Hyundai cars began to increase in ways that
           indicate patterns of targeted behaviour. The first city where this pattern emerged appears to be Milwaukee, a
           Wisconsin city of half a million located 90 minutes from Chicago, but clear growth in thefts of Kia/Hyundai
           models is visible across the entire country more or less simultaneously, in states as far away as Colorado and
@@ -93,6 +101,7 @@
         </p>
       </div>
       <div id="choropleth"></div>
+      <!-- I just place the outline of the chart directly under the choropleth here. -->
       <img src="chartoutline.png" class="chartoutline">
       <div class="illustrationcolumn1">
         <div class="text5">
@@ -122,6 +131,12 @@
           </p>
         </div>
         <div class="illustration" id="illustration1">
+          <!-- And now we embed the video! I originally tried actually using tiktok's built in embed functionality but
+          if you do that it puts the horrible white frame around them that you can't restyle without breaking the whole thing
+        and also the tiktoks will autoplay once and then show this horrible suggested video thing over the top, which means that 
+        if you scrolled back up the page you'd just see the suggestion for the same video over and over and it looked really ugly.
+        Just using video tags that I restyle in the CSS and control with chatgpt JS has worked marvellously. You'd have to host
+      the videos somewhere if this were a real website but it's absolutely worth it -->
           <section class="tiktok">
             <video class="scrollVideo" width="320" muted>
               <source src="inthedust.mp4" type="video/mp4">
@@ -129,6 +144,8 @@
             </video>
           </section>
           <br><sub>(Kiaboyz_.2, 2023) Click video to play or unmute/mute.</sub>
+          <!-- Since the videos have no visible controls I put this little CTA here explaining their functionality next to the
+          citation -->
         </div>
       </div>
       <div class="illustrationcolumn2">
@@ -179,7 +196,7 @@
       <div class="text8">
         <h2>The Kia Challenge</h2>
         <p>
-          The ‘Kia Challenge’ was never a real social media trend, and this is reflected clearly in the google trend
+          <span>T</span>he ‘Kia Challenge’ was never a real social media trend, and this is reflected clearly in the google trend
           data that tracks the frequency of associated search terms. A true cultural phenomenon would show consistent
           interest, but with the term ‘Kia Challenge’ a few events connected to media coverage clearly dominate
           everything else in terms of traffic. Terms related to the mechanics behind the ‘hack’, which would presumably
@@ -235,7 +252,7 @@
         <hr>
         <h2>The Power of Tiktok</h2>
         <p>
-          The media’s fixation on the Kia challenge is best understood in the context of the broader cultural response
+          <span>T</span>he media’s fixation on the Kia challenge is best understood in the context of the broader cultural response
           to Tiktok
           and social media as a whole, and clear parralels can be seen in past coverage of much more innocuous events,
           like the 2021 Sea Shanty Craze.
