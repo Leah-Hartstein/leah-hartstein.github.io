@@ -1,0 +1,146 @@
+<head>
+    <link rel="stylesheet" href="StylesKiaBoyzCaseStudy.css">
+    <link rel="stylesheet" href="https://use.typekit.net/zol2tyu.css">
+  
+    <link rel="stylesheet" href="https://use.typekit.net/qrx8ajd.css">
+    <!-- my Adobe font choice. hopefully it works! -->
+    <!-- <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> -->
+  </head>
+  
+  <body>
+  
+    <div class="container">
+      <div class="Content">
+        <div class="topbar">About Work Resume Contact</div>
+        <section class="Hero">
+          <div class = "titletext">
+            <h2>Kia Boyz: Crime and Spectacle on TikTok</h2>
+            <em>Semester 1 2024 - Web Design - Graphic Design <br> Data Visualisation</em>
+          </div>
+            <!-- <img src="shot1.png" class = "heroimg" > -->
+             <div class ="diagram">
+            <img src = "diagram.png" class = "casestudyimg" id ="diagram">
+          </div>
+
+        </section>
+        <section class = "Introduction">
+            <div class ="text">
+                    <h3>Overview</h3>
+
+
+                    <p><span>I</span> began the third year of my degree with a course on interactive data visualisation websites, with the simple brief to tell a story about social media with data. I chose an event that I’d found fascinating but was only vaguely aware of: the ‘Kia Challenge’, a notorious 2022 TikTok phenomena that supposedly inspired teenage boys to commit auto theft.                     Telling this story was much trickier than I first thought, so I chose to tell it as a longform journalistic article with a design inspired by periodicals like Harpers and The New Yorker. 
+ 
+                    </p>
+                    <p>
+                    Long story short: As a cost-saving measure, Kia chose to remove immobilisers from all of their budget car models sold in the United States, creating a security flaw where they could be started by simpy ripping off the keyhole and then turning the key mechanism underneath. The discovery of this flaw caused an enourmous wave of auto theft across most of the United States. When some teen car thieves began to post content bragging of their exploits online, the media created a narrative that the thefts were being caused by a ‘challenge’ meme.
+                    </p>
+                    <p>
+                    Creating this site was a lot of fun and I’m by far the most proud of this work from my time at university. It can be read in full  <a href = "KiaBoyz.html">here.</a>
+                     </p>
+            </div>
+            <div class = "ImageBox">
+
+              <img src="shot1.png" class = "heroimg" >
+              <sub>My final submission.</a></sub>
+
+             </div>
+
+        </section>
+        <section class = "Ideation">
+            <div class ="ImageBox">
+              <div class="carousel">
+                <centered><em>Data Visualisations,
+                  <br>
+                  Draft and Final.</em></centered>
+                <br>
+
+                <div class="carousel-image">
+                  <img src="theftchart.PNG" alt="Image 1">
+
+                </div>
+                <div class="carousel-caption"></div>
+
+                <div class = "carousel-bottom">
+                <div class="carousel-controls">
+                  <button id="prev-btn"><</button>
+                </div>
+                <div class="carousel-dots">
+
+                  <span class="dot" data-index="0"></span>
+                  <span class="dot" data-index="1"></span>
+                  <span class="dot" data-index="2"></span>
+                  <span class="dot" data-index="3"></span>
+                  <span class="dot" data-index="4"></span>
+                  <span class="dot" data-index="5"></span>
+
+
+
+                </div>
+                <div class="carousel-controls">
+                  <button id="next-btn">></button>
+                </div>
+              </div>
+
+              </div>
+            </div>
+            <div class = "text" id = "IdeationText">
+                <h3>Ideation</h3>
+                <p>
+                    <span>M</span>y ideation process began with extensive secondary research into press coverage and official sources of data concerning the thefts. Primary research was not really possible given my time and physical distance from the events, but I also conducted searches of tiktok and informal surveys of my friends to try to grasp how it was understould by the public. </p>
+                    <p>The more I looked, the more coverage and data I found reputed the popular narrative advanced in the press. Thefts of Kia vehicles had increased dramatically, and many of the theives were young teenagers, but official FBI data showed no real increase in arrests, and google trend data showed no real interest in the content from the public. Instead of a meme encouraging young men to be car theieves, it appeared that the 'Kia Boyz' content was just young men who already steal cars bragging about their exploits. </p>
+                    
+                    <p>To capture these twists in the story in a way that would be engaging to the reader, I made six data visualisations, first deciding on the layout with google sheets, then using the Plotly.js suite to embed them into my page with interactivity. With this, I was able to decide on a layout and figure out how much text I would need to write.</p>
+                
+                        <p>
+              Because of the limited timeframe to complete the assessment, all of my data was found from publically-available sources, but presenting it in this form required considerable processing and labelling on my part to have it show correctly in visualisations. The Choropleth map, for example, required me to combine two news reports of theft data, then group it by state. 
+                            </p>
+            </div>
+        </section>
+        <section class = "Prototyping">
+
+          <div class = "text">
+            <h3>First Prototype</h3>
+<p><span>A</span>s the middle of the semester approached, I was required to present my work to my tutor for review with a five-minute presentation. With such a limited timeframe, and a very rough dotpointed outline of the story, I chose to focus my pitch on my key data visualisations and the overall design of the page. 
+</p>
+<p>The presentation was very successful and my tutor responded very well to my overall idea. Our discussion ended up focusing on something I hadn't quite figured out yet: the tone I wanted to take. I felt that it was important to push back against the sensationalist coverage that the 'Kia Challenge' had received, and not make the 'Kia Boyz' seem more intimidating or more popular than they actually are, so it felt very important for me to approach it with the correct level of seriousness.
+  Including their TikToks would add vital context and make the page much more engaging to the user, but could easily appear to be crass and exploitative.
+</p>
+<p>Ultimately, we decided it would be good to show some, but only a few. My grand idea for the main choropleth was to have it show dozens of locally-sourced kia boyz tiktoks for every big state and city but we decided that this could be crass, as well as very difficult to implement in the time frame, so it was cut. 
+With this feedback I felt confident moving into my final phase of development.</p>
+
+          </div>
+
+          <div class = "ImageBox">
+            <div class = "scrollbox">
+            <img src = "wireframekia.png" class = "casestudyimg">
+            </div>
+            <sub>My initial mid-fidelity wireframe that I presented to my tutor. By this point I was certain of the narrative, so my main focus was on finding an ideal ratio of charts to text that could keep the story engaging all the way through.</sub>
+          </div>
+        </section>
+        <section class = "FinalPrototype">
+
+          <div class = "ImageBox">
+            <img src="feedback.png" >
+            <sub>My final submission.</a></sub>
+
+          </div>
+
+          <div class = "text">          <h3>Final Prototype</h3>
+            <p><span>W</span>ith almost entirely positive feedback from my tutor I felt very confident going into my final prototype. The only real work left was to actually make the thing</p>
+            <p>First, I expanded my initial notes out to a 2600 word draft where I told the complete story in a rigorous journalistic style, which I then combined with my initial diagrams to create a written 'prototype' that I was able to test on my friends and family.
+            My participants were asked to review the text, answer a few brief interview questions concerning the content, then provide feedback overall. Since 2600 words ended up being pretty far over the limit, I also told them to identify any areas where cuts could be made. All of my participants really loved the text and only made minor suggestions for cuts.</p>
+            <p>I then had to make the website itself. My layout was pretty simple, so most of the HTML and CSS was not very difficult. Most of the difficulty was in the Plotly charts, in particular the two tracking theft numbers.</p>
+            <p>Once I had the page mostly ready, I did a final round of testing with a different group of four friends. My participants were instructed to complete brief think-aloud tests, describing their thoughts as they read through the site, then complete a brief semi-structured interview concerning each chart in detail. The feedback was also overwhelmingly positive, but my participants raised a few concerns about the legibility and interactivity of the charts - some, like the google trend charts, were hard to read and required clearer colours and more labels, while others had strange behaviours resulting from hardcoded features in the Plotly.JS suite that would need to be removed.</p>
+            <p>The final submission deadline was soon approaching to I tried to address as much of the feedback as I could, and managed to do almost all of it. I submitted about two hours before the due date. My final site received very positive feedback and a high distinction grade of 90%, with the only real criticism being that I'd considerably exceeded the wordcount. </p>
+  </div>
+
+        </section>
+        <div class="bottombar">
+        </div>
+      </div>
+    </div>
+    
+    <script src ="scriptcasestudyKiaBoyz.js"></script>
+
+  </body>
+  
