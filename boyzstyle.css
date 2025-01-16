@@ -3,9 +3,31 @@ body {
   color: white;
 }
 
+
+
+
 a {
+  color: white;
+  transition: text-decoration 0.1s ease-in-out;
+  text-decoration: none;
+  text-underline-offset: 2px;
   word-spacing: 20px;
 
+}
+
+a:hover {
+  color: purple;
+  text-decoration: underline;
+
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+  color: purple;
 }
 
 em {

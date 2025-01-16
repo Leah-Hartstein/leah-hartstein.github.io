@@ -1,0 +1,424 @@
+/* width */
+.scrollbox::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  .scrollbox::-webkit-scrollbar-track {
+    background: black;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  /* Handle */
+  .scrollbox::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+  }
+  
+  /* Handle on hover */
+  .scrollbox::-webkit-scrollbar-thumb:hover {
+    background: #adadad;
+  }
+  
+  body {
+      margin: auto;
+      color: rgb(18, 18, 18);
+    }
+     
+  
+    
+    section {
+      margin-bottom: 60px;
+      padding-top: 20px;
+      padding-bottom: 40px;
+      justify-content: space-between;
+    }
+    
+    em {
+      font-family: "ivypresto-headline", serif;
+      font-weight: 300;
+      font-style: italic;
+      font-size: 28px; 
+      margin: 0;
+      padding: 0;
+    }
+    
+    b {
+      font-family: "ivypresto-display", serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 20px; 
+      margin-top: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+      /* background-color: white; */
+      background: rgb(92,96,122);
+    
+      /* color: rgb(10, 10, 14); */
+      color: white;
+      border-radius: 3px;
+    
+    }
+    
+    
+    .subtitle {
+      width: 440px;
+      font-size: 20px;
+      font-style: italic;
+      font-weight: 300;
+      font-family: "richmond-display", 'Times New Roman', serif;
+      margin: 0;
+      padding: 0;
+      text-align: left; /* Adjust alignment as needed */
+    }
+  
+    ul{
+      width: 60%;
+      align-self: center;
+    }
+  
+    li {
+  
+      font-size: 14pt;
+      font-style: italic;
+      font-weight: 300;
+      font-family: "richmond-display", 'Times New Roman', serif;
+      margin: 0;
+      padding: 0;
+      text-align: left; /* Adjust alignment as needed */
+      align-self: center;
+    }
+  
+    sub {
+      font-size: 14pt; /* Specify px for font-size */
+      width: 60%;
+      font-style: italic;
+      font-weight: 300;
+      font-family: "richmond-display", 'Times New Roman', serif;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      padding: 0;
+      text-align: center; /* Adjust alignment as needed */
+      align-self: center;
+    }
+    
+    hr {
+      width: 50%;
+      margin-bottom: 20px;
+    }
+    
+    button {
+      background-color: rgb(27, 27, 27); 
+      border: none;
+      color: white;
+      font-family: "richmond-display", 'Times New Roman', serif;
+      padding: 5px 10px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border: 1px solid white;
+      border-radius: 8px;
+    }
+    
+    .textblock {
+      padding-left: 20px;
+    }
+  
+    .text{
+      width: 100%;
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      align-content: center;
+      box-shadow: 0px 33px 35px -42px #121212;
+      background-color: white;
+      padding-bottom: 60px;
+      justify-items: flex-start;
+      align-self:center;
+      margin-right: 40px;
+      margin-left: 0px;
+  
+    }
+  
+    /* .text:nth-child(2){
+      margin-right: 0px;
+      margin-left: 40px;
+  
+    } */
+    
+    .ImageBox {
+      display: flex;
+      flex: 1 1;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      margin: 20px;
+      max-width: 100%;
+      overflow: hidden;
+      justify-content: center;
+  
+      
+    }
+  
+  
+  
+  
+    .casestudyimg {
+      flex: 1;
+      width: 100%;
+      object-fit: contain;
+      margin: 20px;
+      filter: drop-shadow(2px 6px 4px #00000060);
+      border-bottom: 1px solid rgb(92,96,122);
+      
+    }
+  
+    button:hover {
+      background-color: rgb(54, 54, 54);
+    }
+    
+    button:active {
+      background-color: white;
+      color: rgb(27, 27, 27);
+      transform: translateY(2px);
+      transition: 1s ease-in-out;
+    }
+    
+    p {
+      width: 65%;
+      /* margin: auto; */
+      align-self: center;
+      padding-bottom: 13pt;
+      font-family: "acumin-pro-condensed", sans-serif;
+      font-weight: 300;
+      font-style: normal;
+      line-height: 1.3;
+      letter-spacing: 0.6px;
+      font-size: 14pt;
+      margin-top: 0;
+    }
+    
+    h1 {
+      margin: auto;
+      padding-top: 75px;
+      font-family: "richmond-display", 'Times New Roman', serif;
+      font-weight: 700;
+      font-style: normal;
+      font-size: 60pt;
+    }
+    
+    h2 {
+      margin: auto;
+      margin-bottom: 20pt;
+      /* padding-top: 60px; */
+      padding-bottom: 10px;
+    
+      font-family: "ivypresto-display", serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 96pt;
+      line-height: 0.9;
+  
+    }
+  
+    h3 {
+      /* text-align: center; */
+      margin: auto;
+      padding-top: 60px;
+      padding-bottom: 10px;
+    
+      font-family: "ivypresto-display", serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 40pt;
+      width: 70%;
+      align-self: center;
+      margin-bottom: 40pt;
+      border-bottom: 1px solid rgb(92,96,122);
+  
+    }
+  
+    span {
+      font-family: "richmond-display", 'Times New Roman', serif;
+      font-weight: 300;
+      font-style: italic;
+      font-size: 44;
+      float: left;
+      line-height: 55%;
+      transform: translateY(5px);
+      margin-right: 8px;
+      margin-bottom: 4px;
+    }
+    
+    /* uiohduohwauohdowah */
+    .container {
+      display: grid;
+      grid-template-columns: 5% 90% 5%;
+      grid-template-rows: 1fr;
+      gap: 0px 0px;
+      grid-auto-flow: row;
+      justify-content: center;
+      grid-template-areas:
+        ". Content .";
+      background: rgb(233, 234, 242);
+    }
+    
+    .Content {
+      grid-area: Content;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+    }
+    
+    .topbar {
+      grid-area: topbar;
+      width: 100%;
+      min-width: 120;
+      display: flex;
+      flex-direction: row-reverse;
+      text-align: right;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      word-spacing: 20px;
+      font-size: 14pt;
+      /* background-color: black; */
+      justify-self: end;
+      justify-content: space-between;
+    
+    }
+  
+    a {
+      color: black;
+      transition: text-decoration 0.1s ease-in-out;
+      text-decoration: none;
+      text-underline-offset: 2px;
+  
+    }
+    
+    a:hover {
+      color: purple;
+      text-decoration: underline;
+  
+    }
+    
+    a:visited {
+      color: black;
+      text-decoration: none;
+    }
+  
+    a:active {
+      text-decoration: none;
+      color: purple;
+    }
+  
+    
+    .Hero {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 80%;
+    }
+  
+    .titletext {
+      width: 100%;
+      padding-right: 5%;
+      border-right: 1px solid rgb(92,96,122);
+    }
+  
+  
+  
+    .diagram {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      /* background: white; */
+      /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+      padding: 20px;
+      width: 50%;
+    }
+    
+    #diagram {
+      background-color: rgb(24,25,25);
+      margin-left: 10%;
+      padding: 10px;
+      height: auto;
+      max-width: 400px;
+      float: right;
+      filter: none;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    .heroimg {
+      /* margin-top: 60px; */
+      /* margin-bottom: 40px; */
+      width: 130%;
+      height: 900px;
+      object-fit: cover;
+      object-position: 50% 0%;
+      transition: object-position  6s ease-in-out;
+  
+      /* filter: drop-shadow(2px 6px 4px #00000060); */
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+  
+  
+    }
+  
+    .heroimg.in-view {
+      object-position: 50% 20.5%;
+  
+    }
+  
+    .heroimg.in-view2 {
+      object-position: 50% 35.3%;
+  
+    }
+  
+    .heroimg.in-view3 {
+      object-position: 50% 53%;
+  
+    }
+  
+    .heroimg.in-view4 {
+      object-position: 50% 66%;
+  
+    }
+  
+    .heroimg.in-view5 {
+      object-position: 50% 95.4%;
+  
+    }
+  
+    .heroimg.in-viewhome {
+      object-position: 50% 0%;
+  
+    }
+    
+    .headline {
+      grid-area: headline;
+      width: 100%;
+      height: auto;
+      margin-top: 40px;
+      
+    }
+    
+    .subhead {
+      grid-area: subhead;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    
+  
+    .bottombar {
+      grid-area: bottombar;
+      height: 100px;
+    }
+  

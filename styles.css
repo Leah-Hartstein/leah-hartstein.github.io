@@ -37,6 +37,30 @@ b {
 
 }
 
+a {
+  color: black;
+  transition: text-decoration 0.1s ease-in-out;
+  text-decoration: none;
+  text-underline-offset: 2px;
+
+}
+
+a:hover {
+  color: purple;
+  text-decoration: underline;
+
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+  color: purple;
+}
+
 
 .subtitle {
   width: 440px;
@@ -54,23 +78,32 @@ sub {
 }
 
 hr {
-  width: 470px;
-  margin-top: 75px;
-  margin-bottom: 60px;
+  width: 60%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: black;
 }
 
 button {
-  background-color: rgb(27, 27, 27); 
-  border: none;
+  font-family: "ivypresto-display", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px; 
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  /* background-color: white; */
+  background: rgb(92,96,122);
+
+  /* color: rgb(10, 10, 14); */
   color: white;
-  font-family: "richmond-display", 'Times New Roman', serif;
-  padding: 5px 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border: 1px solid white;
-  border-radius: 8px;
+  border-radius: 3px;
+  transition: background-color 0.1s ease-in-out;
+  transition: transform 0.1s ease-in-out;
+
+  cursor: pointer;
 }
 
 .textblock {
@@ -79,13 +112,12 @@ button {
 
 button:hover {
   background-color: rgb(54, 54, 54);
+
 }
 
 button:active {
-  background-color: white;
-  color: rgb(27, 27, 27);
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
+  box-shadow: 0 1px #666;
+  transform: translateY(2px);
 }
 
 p {
@@ -323,6 +355,7 @@ padding-left: 0px;
     ". BelugaBlock .";
   grid-area: Beluga;
   margin-top: 60px;
+
 }
 
 
@@ -469,6 +502,68 @@ flex-direction: row;
       
   }
 
+  .otherProjectBlock .text {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 33px 35px -42px #121212;
+
+
+  }
+
+  .otherProjectBlock{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+  }
+
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Minimum 150px, adjusts to fit */
+    grid-auto-rows: 1fr; /* Ensures rows are proportional */
+    gap: 10px; /* Space between grid items */
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    grid-auto-flow: row dense;
+  }
+  
+  .thumbnail {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover; /* Optional, for better handling of varied aspect ratios */
+    cursor: pointer;
+    border: 1px solid rgb(92,96,122);
+  }
+  
+  .thumbnail:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 33px 35px -42px #121212;
+
+  }
+  
+  .fullscreen {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .fullscreen img {
+    max-width: 90%;
+    max-height: 90%;
+    border: 2px solid white;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+  }
+  
 
 .bottombar {
   grid-area: bottombar;

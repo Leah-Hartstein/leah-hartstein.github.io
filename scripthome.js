@@ -1,3 +1,21 @@
+document.addEventListener("DOMContentLoaded", () => {
+    const thumbnails = document.querySelectorAll(".thumbnail");
+    const fullscreen = document.getElementById("fullscreen");
+    const fullscreenImg = document.getElementById("fullscreen-img");
+  
+    thumbnails.forEach((thumbnail) => {
+      thumbnail.addEventListener("click", () => {
+        fullscreenImg.src = thumbnail.src;
+        fullscreen.style.display = "flex";
+      });
+    });
+  
+    fullscreen.addEventListener("click", () => {
+      fullscreen.style.display = "none";
+      fullscreenImg.src = "";
+    });
+  });
+
 document.addEventListener("DOMContentLoaded", function() {
     const image = document.querySelector('.Image');
     const observer = new IntersectionObserver(entries => {

@@ -131,7 +131,7 @@ body {
   }
 
   .text{
-    width: 90%;
+    width: 100%;
     display: flex;
     flex: 1;
     flex-direction: column;
@@ -294,7 +294,29 @@ body {
   
   }
 
+  a {
+    color: black;
+    transition: text-decoration 0.1s ease-in-out;
+    text-decoration: none;
+    text-underline-offset: 2px;
+
+  }
   
+  a:hover {
+    color: purple;
+    text-decoration: underline;
+
+  }
+  
+  a:visited {
+    color: black;
+    text-decoration: none;
+  }
+
+  a:active {
+    text-decoration: none;
+    color: purple;
+  }
 
   
   .Hero {
