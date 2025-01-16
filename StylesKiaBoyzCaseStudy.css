@@ -278,13 +278,24 @@ body {
   }
   
   .topbar {
+    grid-area: topbar;
+    width: 100%;
+    min-width: 120;
     display: flex;
     flex-direction: row-reverse;
     text-align: right;
     padding-top: 20px;
     padding-bottom: 20px;
-    width: 100%;
+    word-spacing: 20px;
+    font-size: 14pt;
+    /* background-color: black; */
+    justify-self: end;
+    justify-content: space-between;
+  
   }
+
+  
+
   
   .Hero {
     display: flex;

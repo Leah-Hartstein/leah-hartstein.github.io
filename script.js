@@ -250,10 +250,12 @@ Plotly.d3.csv("transposedSheet.csv", transposed_data => {
         hovermode: 'closest',
         plot_bgcolor: 'rgba(255,255,255,0)', //Backgrounds are all transparent to nicely integrate into the page.
         paper_bgcolor: 'rgba(255,255,255,0)',
-        height: 600, // These height and margins are used in every chart, I think. It's late.
+        height: 600,
+         // These height and margins are used in every chart, I think. It's late.
         margin: {
             t: 140,
             r: 180,
+            // l: 180,
         },
         title: {
             text: 'Thefts of Kia/Hyundai Cars in the United States, 2020-2023',

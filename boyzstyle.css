@@ -3,6 +3,11 @@ body {
   color: white;
 }
 
+a {
+  word-spacing: 20px;
+
+}
+
 em {
   font-family: "richmond-display", 'Times New Roman', serif;
   font-weight: 300;
@@ -79,6 +84,7 @@ p {
   font-style: normal;
   line-height: 1.3;
   letter-spacing: 0.6px;
+  font-size: 13pt;
 }
 
 h2 {
@@ -90,6 +96,7 @@ h2 {
   font-style: normal;
   font-size: 35pt;
 }
+
 
 img {
   object-fit: contain;
@@ -115,11 +122,12 @@ img {
 
 .container {
   display: grid;
-  grid-template-columns: auto 70% auto;
-  grid-template-rows: auto auto auto auto auto auto auto;
+  grid-template-columns: 15% 70% 15%;
+  grid-template-rows: auto auto auto auto auto auto auto auto;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
+    "topbar topbar topbar"
     ". headlines ."
     ". intro ."
     ". sales ."
@@ -144,7 +152,6 @@ img {
     "headlinetext heroimg";
   grid-area: headlines;
   background-color: black;
-  box-shadow: 0px 0px 50px 41px #020202;
 }
 
 .headlinetext {
@@ -190,17 +197,36 @@ img {
 
 }
 
-span {
-  font-family: "richmond-display", 'Times New Roman', serif;
-  font-weight: 300;
-  font-style: italic;
-  font-size: 44;
-  float: left;
-  line-height: 55%;
-  transform: translateY(5px);
-  margin-right: 8px;
-  margin-bottom: 4px;
-}
+  span {
+    font-family: "richmond-display", 'Times New Roman', serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 44;
+    float: left;
+    line-height: 55%;
+    transform: translateY(5px);
+    margin-right: 8px;
+    margin-bottom: 4px;
+  }
+
+  .topbar {
+    grid-area: topbar;
+    width: 20%;
+    min-width: 120;
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    word-spacing: 20px;
+    font-size: 14pt;
+    color: white;
+    /* background-color: black; */
+    justify-self: end;
+    justify-content: space-between;
+    margin-right: 10%;
+  
+  }
 
 
 .theftChart {

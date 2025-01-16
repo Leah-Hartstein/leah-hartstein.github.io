@@ -159,8 +159,14 @@ h2 {
 .topbar {
   grid-area: topbar;
   text-align: right;
+  word-spacing: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
+  /* justify-self: right; */
+  font-size: 14pt;
+  background: rgb(233, 234, 242);
+
+
 }
 
 .Hero {
