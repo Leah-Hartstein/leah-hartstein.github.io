@@ -34,8 +34,13 @@
  
                     </p>
                     <p>
-                    I tackled this issue as part of a group of four for a course called <em>Designing for Social Impact</em> in the first semester of my third year of university. After conducting extensive primary and secondary research, we considered several options for creating alternatives to fast fashion before landing on a solution that's novel and a lot of fun: changing the purchasing habits of consumers with an app that challenges them to justify their fast fashion purchases at the point of sale.
+                    I tackled this issue as part of a group of four for a course called <em>'Designing for Social Impact'</em> in the first semester of my third year of university, where we were challenged to create a socially-conscious app addressing one of the 16 United Nations Sustainable Development Goals (SDGs), we chose goal 16, Responsible Production and Consumption. 
                     </p>
+                    <p>After conducting extensive primary and secondary research, we considered several options for creating alternatives to fast fashion before landing on a solution that's novel and a lot of fun: changing the purchasing habits of consumers with an app that challenges them to justify their fast fashion purchases at the point of sale.
+
+                    </p>
+                    <img src = "sdg12.png" >
+                    <sub>UN SDG 12</sub>
                     <p>
                     Though we were working in a very limited timeframe, and only had time to explore solutions on mobile platforms, I'm extremely proud of what we were able to make.
                      </p>
@@ -56,73 +61,75 @@
         </section>
         <section class = "Ideation">
             <div class ="ImageBox">
-              <div class="carousel">
-                <centered><em>Data Visualisations,
-                  <br>
-                  Draft and Final.</em></centered>
-                <br>
 
-                <div class="carousel-image">
-                  <img src="theftchart.PNG" alt="Image 1">
+            
 
-                </div>
-                <div class="carousel-caption"></div>
-
-                <div class = "carousel-bottom">
-                <div class="carousel-controls">
-                  <button id="prev-btn"><</button>
-                </div>
-                <div class="carousel-dots">
-
-                  <span class="dot" data-index="0"></span>
-                  <span class="dot" data-index="1"></span>
-                  <span class="dot" data-index="2"></span>
-                  <span class="dot" data-index="3"></span>
-                  <span class="dot" data-index="4"></span>
-                  <span class="dot" data-index="5"></span>
-
-
-
-                </div>
-                <div class="carousel-controls">
-                  <button id="next-btn">></button>
-                </div>
-              </div>
-
-              </div>
             </div>
             <div class = "text" id = "IdeationText">
-                <h3>Ideation</h3>
+                <h3>Research</h3>
                 <p>
-                    <span>M</span>y ideation process began with extensive secondary research into press coverage and official sources of data concerning the thefts. Primary research was not really possible given my time and physical distance from the events, but I also conducted searches of tiktok and informal surveys of my friends to try to grasp how it was understould by the public. </p>
-                    <p>The more I looked, the more coverage and data I found reputed the popular narrative advanced in the press. Thefts of Kia vehicles had increased dramatically, and many of the theives were young teenagers, but official FBI data showed no real increase in arrests, and google trend data showed no real interest in the content from the public. Instead of a meme encouraging young men to be car theieves, it appeared that the 'Kia Boyz' content was just young men who already steal cars bragging about their exploits. </p>
+                    <span>A</span>fter first forming a group, we spent our first tutorial reading over the full list of 16 UN SDGs and considering issues that we would be able to address within the scope of our eventual final deliverable of a UI prototype. After extensive discussion, we all landed on the idea of exploring fast fashion through UN SDG 12, as we all had a mutual interest in fashion and all shared the experience of making too many impulse purchases. We then split up responsibilities for our research. I volunteered to do most of the secondary research, since I'm pretty skilled in it from my previous degree. Primary research was split between my other three group members, with each choosing to do interviews, surveys and online ethnography, respectively.</p>
                     
-                    <p>To capture these twists in the story in a way that would be engaging to the reader, I made six data visualisations, first deciding on the layout with google sheets, then using the Plotly.js suite to embed them into my page with interactivity. With this, I was able to decide on a layout and figure out how much text I would need to write.</p>
+                    <p>We found a remarkable thread of insights across all of our research methods. I was somewhat aware of the issues with fast fashion, but I still found my secondary research into reports from NGOs and other fashion industry researchers to be quite shocking. Essentially: Fast fashion is horrifically bad for the environment, responsible for [number] of carbon waste annually and [percentage] of carbon emissions. Production is spread across the entire world, with it being extremely common for a garment to pass through several different countries in its production process before final retail sale to first-world consumers. Surveys of consumers find this to be pretty common knowledge for the general public and polls show widespread knowledge of the flaws of the production process. However, this awareness does not greatly influence consumer purchases because consumers operate under very limited knowledge and do not trust more expensive 'sustainably-made' brands to be significantly better.</p>
                 
                         <p>
-              Because of the limited timeframe to complete the assessment, all of my data was found from publically-available sources, but presenting it in this form required considerable processing and labelling on my part to have it show correctly in visualisations. The Choropleth map, for example, required me to combine two news reports of theft data, then group it by state. 
-                            </p>
+                        After collating the primary research conducted by my groupmembers with an affinity diagram, we found it correlated very strongly with the insights from my secondary research. [something from interviews and stuff idk]. We knew from this that addressing fast fashion by selling more sustainable clothes is not enough of a solution, and some sort of intervention to just simply make consumers by less clothes is necessary.    
+                        </p>
+                        <p>We synthesised all of our findings into an affinity diagram (which can be seen <a href ="https://www.figma.com/board/VciKVrWxbcfPlPQ1aN7umM/affinity-diagram?node-id=0-1&t=mP7UaF5iOyfqABuT-1">here.</a>), and a single problem statement to orient our design moving forward:
+                        </p>
+                        <em class = "problemstatement">While most consumers are aware of the social, environmental, and ethical challenges posed by fast fashion, their capacity to adopt more sustainable practices is constrained by time and budget.</em></centered>
+
             </div>
         </section>
         <section class = "Prototyping">
 
           <div class = "text">
-            <h3>First Prototype</h3>
-<p><span>A</span>s the middle of the semester approached, I was required to present my work to my tutor for review with a five-minute presentation. With such a limited timeframe, and a very rough dotpointed outline of the story, I chose to focus my pitch on my key data visualisations and the overall design of the page. 
+            <h3>Ideation</h3>
+<p><span>W</span>ith a strong idea for the shape of our potential solution, each group member was tasked with coming up with an original idea for a potential solution, targeted at people like us: fashion-conscious consumers under the age of 30. 
 </p>
-<p>The presentation was very successful and my tutor responded very well to my overall idea. Our discussion ended up focusing on something I hadn't quite figured out yet: the tone I wanted to take. I felt that it was important to push back against the sensationalist coverage that the 'Kia Challenge' had received, and not make the 'Kia Boyz' seem more intimidating or more popular than they actually are, so it felt very important for me to approach it with the correct level of seriousness.
-  Including their TikToks would add vital context and make the page much more engaging to the user, but could easily appear to be crass and exploitative.
-</p>
-<p>Ultimately, we decided it would be good to show some, but only a few. My grand idea for the main choropleth was to have it show dozens of locally-sourced kia boyz tiktoks for every big state and city but we decided that this could be crass, as well as very difficult to implement in the time frame, so it was cut. 
-With this feedback I felt confident moving into my final phase of development.</p>
+<p>We landed on three proposed solutions: 
+    <ul>
+        <li>'Sewlution', an app to suggest repairs and alterations for already-owned clothes.</li>
+        <li>'The People's Wardobe', a system of communal wardrobe rental.</li>
+        <li>My idea, 'SSHAME', an app and browser extension that confronts the user at the point of sale and challenges them to list times they will actually wear the garment.</li>
+    </ul>
+     </p>
+    
+     <p>After comparing all three ideas with a decision matrix, ranking each on criteria  the winner was SSHAME, as we concluded that it was the most novel, most focused on causing positive behavioural shifts, and the easiest to show with a figma prototype.</li>
+    </p>
 
           </div>
 
-          <div class = "ImageBox">
-            <div class = "scrollbox">
-            <img src = "wireframekia.png" class = "casestudyimg">
+          <div class ="ImageBox">
+            <div class="carousel">
+              <centered><em>Final Concepts</em></centered>
+              <br>
+
+              <div class="carousel-image">
+                <img src="theftchart.PNG" alt="Image 1">
+
+              </div>
+              <div class="carousel-caption"></div>
+
+              <div class = "carousel-bottom">
+              <div class="carousel-controls">
+                <button id="prev-btn"><</button>
+              </div>
+              <div class="carousel-dots">
+
+                <span class="dot" data-index="0"></span>
+                <span class="dot" data-index="1"></span>
+                <span class="dot" data-index="2"></span>
+
+
+
+              </div>
+              <div class="carousel-controls">
+                <button id="next-btn">></button>
+              </div>
             </div>
-            <sub>My initial mid-fidelity wireframe that I presented to my tutor. By this point I was certain of the narrative, so my main focus was on finding an ideal ratio of charts to text that could keep the story engaging all the way through.</sub>
+
+            </div>
           </div>
         </section>
         <section class = "FinalPrototype">
@@ -148,7 +155,7 @@ With this feedback I felt confident moving into my final phase of development.</
       </div>
     </div>
     
-    <script src ="scriptcasestudyKiaBoyz.js"></script>
+    <script src ="scriptcasestudymother.js"></script>
 
   </body>
   
