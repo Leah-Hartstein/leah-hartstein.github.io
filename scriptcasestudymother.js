@@ -13,27 +13,27 @@
 //     observer.observe(image);
 //   });
 
-document.addEventListener("DOMContentLoaded", () => {
-    const heroImg = document.querySelector('.heroimg');
-    const viewClasses = ['in-viewhome', 'in-view', 'in-view2', 'in-view3', 'in-view4', 'in-view5'];
-    let currentIndex = 0;
+// document.addEventListener("DOMContentLoaded", () => {
+//     const heroImg = document.querySelector('.heroimg');
+//     const viewClasses = ['in-viewhome', 'in-view', 'in-view2', 'in-view3', 'in-view4', 'in-view5'];
+//     let currentIndex = 0;
   
-    // Function to update the view class
-    function updateView() {
-      // Remove all view classes
-      viewClasses.forEach(cls => heroImg.classList.remove(cls));
+//     // Function to update the view class
+//     function updateView() {
+//       // Remove all view classes
+//       viewClasses.forEach(cls => heroImg.classList.remove(cls));
   
-      // Add the current class
-      heroImg.classList.add(viewClasses[currentIndex]);
+//       // Add the current class
+//       heroImg.classList.add(viewClasses[currentIndex]);
   
-      // Move to the next class
-      currentIndex = (currentIndex + 1) % viewClasses.length;
-    }
+//       // Move to the next class
+//       currentIndex = (currentIndex + 1) % viewClasses.length;
+//     }
   
-    // Start the loop
-    updateView(); // Initialize with the first class
-    setInterval(updateView, 8000); // Adjust interval time as needed (10 seconds here)
-  });
+//     // Start the loop
+//     updateView(); // Initialize with the first class
+//     setInterval(updateView, 8000); // Adjust interval time as needed (10 seconds here)
+//   });
   
   const images = [
     "mother/sshame.png",
