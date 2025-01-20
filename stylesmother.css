@@ -180,7 +180,7 @@
       filter: drop-shadow(2px 6px 4px #00000060);
 
     }
-  
+
     button:hover {
       background-color: rgb(54, 54, 54);
     }
@@ -193,6 +193,8 @@
     }
     
     p {
+      display: flex;
+      flex-direction: column;
       width: 65%;
       /* margin: auto; */
       align-self: center;
@@ -204,7 +206,14 @@
       letter-spacing: 0.6px;
       font-size: 14pt;
       margin-top: 0;
-    }
+   }
+
+   #changes {
+    justify-self: center;
+    min-width: 120%;
+    filter: none;
+    border: none;
+   }
 
     p a {
         color: purple;
@@ -498,6 +507,22 @@
       width: 90%;
       /* align-items: center; */
     }
+
+    .Ideation .Imagebox {
+        flex-direction: column;
+        justify-content: space-around;
+        align-self: center;
+        max-height: 80%;
+    }
+    
+    .Ideation .Imagebox .casestudyimg {
+        /* flex: 1; */
+        max-width: 95%;
+        object-fit: fit;
+        border-bottom: none;
+        filter: drop-shadow(2px 6px 4px #00000060);
+    }
+  
   
     /* #IdeationText{
       max-width: 70%;
@@ -532,7 +557,7 @@
     }
   
     .carousel-image {
-      width: 90%;
+      max-width: 90%;
       min-height: 600px;
       border-top: 1px solid rgb(92,96,122);
       padding-top: 12pt;
@@ -552,7 +577,7 @@
     }
     
     .carousel-bottom{
-      width: 500px;
+      width: 300px;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
@@ -664,5 +689,16 @@
     width: 90%;
     align-items: center;
   }
-  
+
+  .FinalFinalPrototype{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    align-items: center;
+  }
+
+
+  #sketch {
+    min-width: 60%;
+  }
   

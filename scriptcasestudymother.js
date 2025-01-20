@@ -36,17 +36,20 @@ document.addEventListener("DOMContentLoaded", () => {
   });
   
   const images = [
+    "mother/sshame.png",
     "mother/pplwardobe.png",
     "mother/sewlution.png",
-    "mother/sshame.png",
+    "mother/decisionmatrix.png",
+
+
 
   ];
   
   const captions = [
-    "[1] Thefts of Kia and Hyundai Model cars. Sourced from Police Data via journalistic coverage.",
-    "[2] Sales of Kia and Hyundai model cars without immobilisers, which later caused them to be denied insurance coverage. Sourced from carfacts.org.",
-    "[3] The main interactive choropleth chart of the visualisation, showing car theft data but broken down by state, with a timeline that plays through as an animation.",
-    "[4] Arrests for car theft in Wisconsin, the epicentre of the theft wave, users can toggle between stacked and distribution charts, and see that the relative portion of young men being arrested did not actually increase.",
+    "[1] My proposed concept for 'SSHAME', an app that challenges users to justify their fashion purchases. In this initial sketch, I hadn't figured out the actual incentive to do so, so they app gave you discounts on future purchases.",
+    "[2] My groupmate Gabriel's concept for 'The Peoples' Wardrobe', a combination app and service",
+    "[3] My groupmate Kira's concept for 'Sewlution', a platform for requesting repairs to clothes, with lockers to drop them off in.",
+    "[4] Our final decision matrix, where we compared our three ideas according to the needs of the user. Ultimately, 'SSHAME' won out because of it was simply more feasible to implement both within the real world and as a university assignment, compared to the other two concepts that required a combination of software and physical services.",
     "[5] Google trend data for the 'Kia Challenge', showing that interest in the phenomena correlates much more strongly to media coverage than any kind of viral spread.",
     "[6] Google trend data for the Sea Shanty craze of the early 2020s, showing it to be a similar media creation."
   ];
