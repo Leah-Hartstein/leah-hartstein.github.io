@@ -193,7 +193,7 @@
     }
     
     p {
-      display: flex;
+      /* display: flex; */
       flex-direction: column;
       width: 65%;
       /* margin: auto; */
@@ -210,7 +210,14 @@
 
    #changes {
     justify-self: center;
-    min-width: 120%;
+    min-width: 95%;
+    filter: none;
+    border: none;
+   }
+
+   #logo {
+    justify-self: center;
+    min-width: 50%;
     filter: none;
     border: none;
    }
@@ -701,4 +708,10 @@
   #sketch {
     min-width: 60%;
   }
+
+  #hierarchy {
+    min-width: 70%;
+    border: none;
+  }
+  
   
