@@ -106,6 +106,10 @@
       text-align: center; /* Adjust alignment as needed */
       align-self: center;
     }
+
+    sub a {
+      color: purple;
+    }
     
     hr {
       width: 50%;
