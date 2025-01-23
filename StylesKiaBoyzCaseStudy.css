@@ -26,6 +26,7 @@
 body {
     margin: auto;
     color: rgb(18, 18, 18);
+    background: rgb(233, 234, 242);
   }
    
 
@@ -266,6 +267,7 @@ body {
   
   /* uiohduohwauohdowah */
   .container {
+    width: 1920px;
     display: grid;
     grid-template-columns: 5% 90% 5%;
     grid-template-rows: 1fr;
@@ -274,7 +276,7 @@ body {
     justify-content: center;
     grid-template-areas:
       ". Content .";
-    background: rgb(233, 234, 242);
+      justify-self: center;
   }
   
   .Content {

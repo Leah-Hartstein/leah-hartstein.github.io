@@ -175,6 +175,7 @@ h2 {
   grid-template-areas:
     ". Content .";
   background: rgb(233, 234, 242);
+  justify-self: center;
 }
 
 .Content {
