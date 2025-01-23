@@ -585,6 +585,11 @@ flex-direction: row;
     filter: blur(3px);
   }
 
+  #censored:hover {
+    filter: none;
+  }
+
+
 .bottombar {
   grid-area: bottombar;
   height: 100px;
