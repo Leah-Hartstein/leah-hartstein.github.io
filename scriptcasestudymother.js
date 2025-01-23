@@ -36,9 +36,9 @@ document.addEventListener("DOMContentLoaded", () => {
   });
   
   const images = [
-    "sshame.PNG",
-    "pplwardobe.PNG",
-    "sewlution.PNG",
+    "mother/sshame.PNG",
+    "mother/pplwardobe.PNG",
+    "mother/sewlution.PNG",
     "mother/decisionmatrix.png",
 
 

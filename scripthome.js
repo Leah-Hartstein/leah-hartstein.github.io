@@ -1,3 +1,17 @@
+// const video = document.querySelector("video");
+
+// // Play the video when the mouse is over it
+// video.addEventListener("mouseenter", () => {
+//   video.play();
+//   video.muted = true;
+
+// });
+
+// // Pause the video when the mouse leaves
+// video.addEventListener("mouseleave", () => {
+//   video.pause();
+// });
+
 document.addEventListener("DOMContentLoaded", () => {
     const thumbnails = document.querySelectorAll(".thumbnail");
     const fullscreen = document.getElementById("fullscreen");
@@ -61,8 +75,10 @@ document.addEventListener('DOMContentLoaded', function() {
       
             if (isInViewport) {
                 video.play();
+                video.muted = true;
             } else {
                 video.pause();
+                video.muted = true;
             }
         });
     }

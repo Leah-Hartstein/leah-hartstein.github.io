@@ -1,6 +1,8 @@
 body {
   margin: auto;
   color: rgb(18, 18, 18);
+  background: rgb(233, 234, 242);
+
 }
  
 /*
@@ -115,6 +117,10 @@ button:hover {
 
 }
 
+video {
+  width: 100%;
+}
+
 button:active {
   box-shadow: 0 1px #666;
   transform: translateY(2px);
@@ -159,8 +165,9 @@ h2 {
 
 /* uiohduohwauohdowah */
 .container {
+  width: 1920px;
   display: grid;
-  grid-template-columns: 5% 90% 5%;
+  grid-template-columns: 7% 86% 7%;
   grid-template-rows: 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
@@ -180,8 +187,9 @@ h2 {
   grid-template-areas:
     "topbar"
     "Hero"
-    "KiaBoyz"
     "Mother"
+    "KiaBoyz"
+
     "Beluga"
     "OtherProjects"
     "bottombar";
@@ -251,7 +259,7 @@ h2 {
 
 .Carousel {
   grid-area: Carousel;
-  width: 1200px;
+  width: 1400px;
   height: 480px;
   display: flex;
   flex-direction: row;
@@ -277,9 +285,9 @@ h2 {
 .caro1 {
   display: flex;
   flex: 1.2;
-  background: url("shot1.png") no-repeat center content-box;
-  background-size: 170%;
-  background-position-y: 37%;
+  background: url("mother/landing\ screen\ final.png") no-repeat center content-box;
+  background-size: 100%;
+  background-position-y: 95%;
   border-radius: 5px;
   box-shadow: 0px 33px 35px -42px #121212;
 
@@ -362,7 +370,7 @@ padding-left: 0px;
 
 .BoyzBlock {
   display: flex;
-flex-direction: row;
+flex-direction: row-reverse;
   grid-area: BoyzBlock;
   /* background: rgb(47, 52, 79); */
   align-items: center;
@@ -372,7 +380,7 @@ flex-direction: row;
 
 .MotherBlock {
   display: flex;
-flex-direction: row;
+flex-direction: row-reverse;
   grid-area: MotherBlock;
   /* background: rgb(47, 52, 79); */
   align-items: center;
@@ -405,7 +413,7 @@ flex-direction: row;
   align-items: center;
   }
 
-  #MotherText {
+  #reversedtext {
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 5px;
     border-left: 1px solid rgb(92,96,122);
@@ -424,12 +432,12 @@ flex-direction: row;
   background-size: 119% auto;
   align-self: center;
   /* border-left: 1px solid white; */
-  border-left: 1px solid rgb(92,96,122);
+  border-right: 1px solid rgb(92,96,122);
   
 
   transition: background-position-y 20s ease-in-out; /* Smooth transition */
-  border-bottom-right-radius: 5px;
-  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
 
 }
 
@@ -445,9 +453,9 @@ flex-direction: row;
   background-size: 85% auto;
   background-position-y: 50%;
   background-position-x: 50%;
-  border-right: 1px solid rgb(92,96,122);
-  border-bottom-left-radius: 5px;
-  border-top-left-radius: 5px;
+  border-left: 1px solid rgb(92,96,122);
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
 
 
 }
