@@ -109,8 +109,14 @@ button {
   cursor: pointer;
 }
 
+
+
 .textblock {
   padding-left: 20px;
+}
+
+.otherProjectBlock .text {
+  width: fit-content
 }
 
 button:hover {
@@ -128,7 +134,7 @@ button:active {
 }
 
 p {
-  width: 470px;
+  max-width: 470px;
   margin: auto;
   align-self: center;
   padding-bottom: 60px;
@@ -141,7 +147,7 @@ p {
 }
 
 h1 {
-  width: 450px;
+  max-width: 450px;
   margin: auto;
   padding-top: 75px;
   font-family: "richmond-display", 'Times New Roman', serif;
@@ -151,7 +157,7 @@ h1 {
 }
 
 h2 {
-  width: 450px;
+  max-width: 450px;
   margin: auto;
   padding-top: 60px;
   padding-bottom: 10px;
