@@ -259,8 +259,8 @@
     
     /* uiohduohwauohdowah */
     .container {
-      width: 1920px;
-      display: grid;
+      width: 100%;
+      max-width: 1920px;      display: grid;
       grid-template-columns: 5% 90% 5%;
       grid-template-rows: 1fr;
       gap: 0px 0px;

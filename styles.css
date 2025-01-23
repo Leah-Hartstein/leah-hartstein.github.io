@@ -165,7 +165,8 @@ h2 {
 
 /* uiohduohwauohdowah */
 .container {
-  width: 1920px;
+  width: 100%;
+  max-width: 1920px;
   display: grid;
   grid-template-columns: 7% 86% 7%;
   grid-template-rows: 1fr;
@@ -460,6 +461,7 @@ flex-direction: row;
 
 
 }
+
 
 .Image3 {
   flex: 0.75;
