@@ -27,6 +27,8 @@
       margin: auto;
       color: rgb(18, 18, 18);
       background: rgb(233, 234, 242);
+      overflow-x: hidden;
+
     }
      
   
