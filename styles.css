@@ -581,6 +581,9 @@ flex-direction: row;
     cursor: pointer;
   }
   
+  #censored {
+    filter: blur(3px);
+  }
 
 .bottombar {
   grid-area: bottombar;
