@@ -115,8 +115,9 @@ button {
   padding-left: 20px;
 }
 
-.otherProjectBlock .text {
-  width: fit-content
+.otherProjectBlock .textblock {
+    width: 500px;
+    max-width: fit-content
 }
 
 button:hover {
