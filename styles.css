@@ -66,6 +66,7 @@ a:active {
 
 
 .subtitle {
+  width: 100%;
   max-width: 440px;
   font-size: 20px;
   font-style: italic;
@@ -148,6 +149,7 @@ p {
 }
 
 h1 {
+  width: 100%;
   max-width: 450px;
   margin: auto;
   padding-top: 75px;
@@ -158,6 +160,7 @@ h1 {
 }
 
 h2 {
+  width: 100%;
   max-width: 450px;
   margin: auto;
   padding-top: 60px;
