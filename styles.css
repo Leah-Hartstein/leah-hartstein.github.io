@@ -82,10 +82,11 @@ sub {
 }
 
 hr {
-  width: 60%;
+  width: 80%;
   margin-top: 20px;
   margin-bottom: 20px;
   background-color: black;
+  border-top: 1px solid black;
 }
 
 button {
@@ -118,7 +119,12 @@ button {
 
 .otherProjectBlock .textblock {
     width: 500px;
-    max-width: fit-content
+    max-width: fit-content;
+
+}
+
+.otherProjectBlock .text {
+  align-self: flex-start;
 }
 
 button:hover {
@@ -533,16 +539,19 @@ flex-direction: row;
   }
 
   .otherProjectBlock{
-    padding-top: 40px;
+    margin-top: 80px;
+    padding-bottom: 80px;
     display: flex;
     flex-direction: row;
     align-items: center;
     min-width: 100%;
-    
+    background: linear-gradient( rgba(0, 0, 0, 0.089) 0%, rgba(226, 226, 226, 0.027) 35%, rgba(255, 255, 255, 0.021) 100%);
   }
 
 
   .gallery {
+    border-top: 1px solid black;
+
     display: grid;
     grid-auto-flow: row;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
