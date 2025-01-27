@@ -263,7 +263,7 @@ h2 {
 
 .headline {
   grid-area: headline;
-  width: 100%;
+  width: 90%;
   height: auto;
   margin-top: 40px;
   
@@ -271,8 +271,8 @@ h2 {
 
 .subhead {
   grid-area: subhead;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  font-size: 24pt;
+  padding-bottom: 40px;
 }
 
 .Carousel {
@@ -614,5 +614,8 @@ flex-direction: row;
 
 .bottombar {
   grid-area: bottombar;
-  height: 100px;
+  height: 80px;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 40px;
 }
